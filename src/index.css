@@ -1,20 +1,13 @@
 .home{
-  height: 400px;
-  width: 400px;
-  background-color:cadetblue;
-  position: relative;
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
 }
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.welcome{
+  margin: auto;
+  width: 50%;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
