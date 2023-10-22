@@ -1,8 +1,10 @@
+import './index.css';
+
 function Home(){
     return(
-        <div>
-            <h1>Hey from Server</h1>
-        </div>
+        <>
+        <h1 className="home" >Welcome to the home page</h1>
+        </>
     )
 }
 
