@@ -18,15 +18,9 @@ function Home() {
   const SubmitEvent = (event) => {
     event.preventDefault();
     SetRequestArray((past) => [...past, { name: name, email: email }]);
+    setEmail("");
+    setName("");
   };
-
-  useEffect(()=>{
-
-    setTimeout(()=>{
-        alert("Hi there");
-    },5000);
-
-  },[requestArray]);
 
   return (
     <>
@@ -39,6 +33,7 @@ function Home() {
             name="name"
             id="nameInput"
             placeholder="Enter Your Name"
+            value={name}
             onChange={nameChanged}
           ></input>
           <br></br>
@@ -48,6 +43,7 @@ function Home() {
             type="text"
             name="email"
             id="email"
+            value={email}
             placeholder="Enter your Email"
             onChange={emailChanged}
           ></input>
